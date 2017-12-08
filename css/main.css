@@ -142,3 +142,36 @@ html,body{height:100%}
 .foot_link a:hover{color:#ff8800}
 .foot_link span{padding:0 10px}
 .footer p{text-align:center; margin-top:10px;}
+
+/* 登录页 */
+
+.login_top{width:960px;height:130px;margin:0 auto;}
+.login_logo{display:block;width:193px;height:76px;margin-top:30px;}
+.login_form_bg{height:480px;background-color:#518e17}
+.no-mp{margin-top:0px;}
+.login_form_wrap{width:960px;height:480px;margin:0 auto;}
+.login_banner{width:381px;height:322px;background:url(../images/login_banner.png) no-repeat;margin-top:90px;}
+.slogan{width:40px;height:300px;font-size:30px;color:#f0f9e8;text-align:center;line-height:36px;margin:80px 0 0 120px}
+.login_form{width:368px;height:378px;border:1px solid #c6c6c5;background-color:#fff; margin-top:50px;}
+
+.login_title{height:60px;width:308px;margin:10px auto;border-bottom:1px solid #e0e0e0;}
+
+.login_title h1{font-size:24px;height:60px;line-height:60px;color:#a8a8a8;float:left;font-weight:bold;margin-left:44px;}
+.login_title a{width:100px;height:20px;display:block;font-size:16px;color:#5fb42a;text-indent:26px;background:url(../images/icons02.png) left 5px no-repeat;float:left;margin:20px 0 0 36px}
+
+.form_input{width:308px;height:250px;margin:20px auto;position:relative;}
+.name_input,.pass_input{width:306px;height:36px;border:1px solid #e0e0e0;background:url(../images/icons02.png) 280px -41px no-repeat #f8f8f8;outline:none;font-size:14px;text-indent:10px;position: absolute;left:0;top:0}
+.pass_input{top:65px;background-position:280px -95px;}
+
+.user_error,.pwd_error{color:#f00;position:absolute;left:0;top:43px;display:none}
+
+.pwd_error{top:110px;}
+
+.more_input{position:absolute;left:0;top:130px;width:100%}
+
+.more_input input{float:left;margin-top:2px;}
+.more_input label{float:left;margin-left:10px;}
+.more_input a{float:right;color:#666}
+.more_input a:hover{color:#ff8800}
+
+.input_submit{width:100%;height:40px;position:absolute;left:0;top:180px;background-color:#47aa34;color:#fff;font-size:22px;border:0px;font-family:'Microsoft Yahei';cursor:pointer;}
