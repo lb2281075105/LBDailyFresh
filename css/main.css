@@ -103,3 +103,30 @@ html,body{height:100%}
 
 .adv{width:240px;height:270px; overflow:hidden; background-color:gold;}
 .adv a{display:block;float:left;}
+
+/* 商品列表样式 */
+
+.list_model{width:1200px;height:340px;margin:15px auto 0;}
+.list_title{height:40px;border-bottom:2px solid #42ad46}
+.list_title h3{height:40px;line-height:40px;font-size:16px;color:#37ab40;font-weight:bold;}
+.list_title .subtitle{height:20px;line-height:20px;margin-top:15px;}
+.list_title .subtitle span{color:#666;margin:0 10px 0 20px;}
+.list_title .subtitle a{color:#666;margin:0 5px;}
+.list_title .subtitle a:hover,.goods_more:hover{color:#ff8800}
+.goods_more{height:20px;margin-top:15px;color:#666}
+
+.goods_con{height:300px;}
+.goods_banner{width:200px;height:300px;}
+.goods_banner img{width:200px;height:300px;}
+
+.goods_list{width:1000px;height:299px;border-bottom:1px solid #ededed}
+.goods_list li{height:299px;width:249px;border-right:1px solid #ededed;float:left}
+.goods_list li:hover{width:248px;height:297px;border:1px solid gold;}
+.goods_list li:hover img{opacity:0.8}
+
+.goods_list li h4{width:200px;height:50px;margin:20px auto 0;text-align:center;}
+.goods_list li h4 a{font-size:14px;color:#666;font-weight:normal;line-height:24px;}
+.goods_list li h4 a:hover{color:#ff8800}
+
+.goods_list li img{display:block;width:180px;height:180px;margin:0 auto;}
+.goods_list li .prize{text-align:center;font-size:20px;color:#c40000;margin-top:5px;}

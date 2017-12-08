@@ -52,10 +52,17 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+            <state relative-caret-position="213">
+              <caret line="64" column="8" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="banner01.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/banner01.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -69,8 +76,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="88" column="12" lean-forward="true" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="12" />
+            <state relative-caret-position="203">
+              <caret line="104" column="9" lean-forward="false" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -93,13 +100,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fruit.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/fruit.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -113,8 +113,10 @@
     <findStrings>
       <find>header_con</find>
       <find>login_info</find>
-      <find>subnav_con</find>
       <find>subnav</find>
+      <find>goods_banner</find>
+      <find>subnav_con</find>
+      <find>adv</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -123,8 +125,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -136,7 +138,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="83" />
-    <option name="y" value="50" />
+    <option name="y" value="49" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -283,15 +285,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512698724216</updated>
-      <workItem from="1512698729121" duration="5727000" />
+      <workItem from="1512698729121" duration="6766000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5727000" />
+    <option name="totallyTimeSpent" value="6766000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="83" y="50" width="1400" height="1000" extended-state="0" />
+    <frame x="83" y="49" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -384,18 +386,23 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/banner01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="88" column="12" lean-forward="true" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="12" />
+        <state relative-caret-position="203">
+          <caret line="104" column="9" lean-forward="false" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+        <state relative-caret-position="213">
+          <caret line="64" column="8" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
           <folding />
         </state>
       </provider>
