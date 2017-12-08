@@ -59,4 +59,13 @@ html,body{height:100%}
 	width:40px;height:40px;text-align:center;line-height:40px;font-size:18px;
 	font-weight:bold;color:#fff;background-color:#ff8800;
 }
+/* 全部分类、首页、天天生鲜、抽奖 */
+.navbar_con{height:40px;border-bottom:2px solid #39a93e}
+.navbar{width:1200px;margin:0 auto;}
+.navbar h1{width:200px;height:40px;line-height:40px;text-align: center;font-size:14px;color:#fff;background-color:#39a93e;}
 
+.navlist{margin-left:34px;}
+.navlist li{height:40px;float:left;line-height:40px;}
+.navlist li a{color:#666;font-size:14px}
+.navlist li a:hover{color:#ff8800}
+.navlist .interval{margin:0 15px;}
