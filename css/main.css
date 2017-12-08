@@ -64,8 +64,42 @@ html,body{height:100%}
 .navbar{width:1200px;margin:0 auto;}
 .navbar h1{width:200px;height:40px;line-height:40px;text-align: center;font-size:14px;color:#fff;background-color:#39a93e;}
 
+.navbar .subnav_con{width:200px;height:40px;background-color:#39a93e;position:relative;cursor:pointer;}
+.navbar .subnav_con h1{position:absolute;left:0;top:0;text-align:left;text-indent:40px}
+.navbar .subnav_con span{display:block;width:16px;height:9px;background:url(../images/down.png) no-repeat;position:absolute;right:27px;top:16px;transition:all 300ms ease-in;
+}
+.navbar .subnav_con:hover span{transform:rotateZ(180deg)}
+.navbar .subnav_con .subnav{position:absolute;left:0;top:40px;display:none;border-top:2px solid  #39a93e;}
+.navbar .subnav_con:hover .subnav{display:block;}
+
 .navlist{margin-left:34px;}
 .navlist li{height:40px;float:left;line-height:40px;}
 .navlist li a{color:#666;font-size:14px}
 .navlist li a:hover{color:#ff8800}
 .navlist .interval{margin:0 15px;}
+
+.center_con{width:1200px;height:270px;margin:0 auto;}
+.subnav{width:198px;height:270px;border-left:1px solid #eee;border-right:1px solid #eee;}
+.subnav li{height:44px;border-bottom:1px solid #eee;background:url(../images/icons.png) 178px -257px no-repeat #fff;}
+
+.subnav li a{display:block;height:44px;line-height:44px;text-indent:71px;font-size:14px;color:#333}
+.subnav li a:hover{color:#ff8800}
+
+.subnav li .fruit{background:url(../images/icons.png) 28px 0px no-repeat;}
+.subnav li .seafood{background:url(../images/icons.png) 28px -43px no-repeat;}
+.subnav li .meet{background:url(../images/icons.png) 28px -86px no-repeat;}
+.subnav li .egg{background:url(../images/icons.png) 28px -132px no-repeat;}
+.subnav li .vegetables{background:url(../images/icons.png) 28px -174px no-repeat;}
+.subnav li .ice{background:url(../images/icons.png) 28px -220px no-repeat;}
+
+.slide{width:760px;height:270px;position:relative;overflow:hidden;}
+.slide .slide_pics{position:relative;left:0;top:0;width:760px;height:270px;}
+.slide .slide_pics li{width:760px;height:270px;position:absolute;left:0;top:0}
+.slide .prev,.slide .next{width:17px;height:23px;background:url(../images/icons.png) left -388px no-repeat;position:absolute;left:11px;top:122px;cursor:pointer;}
+.slide .next{background-position:left -428px;left:732px;}
+.points{width:100%;height:11px;position:absolute;left:0;top:250px;text-align:center;}
+.points li{display:inline-block;width:11px;height:11px;margin:0 5px;background-color:#9f9f9f;border-radius:50%;cursor:pointer;}
+.points li.active{background-color:#cecece}
+
+.adv{width:240px;height:270px; overflow:hidden; background-color:gold;}
+.adv a{display:block;float:left;}
