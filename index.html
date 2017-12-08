@@ -312,5 +312,35 @@
         </ul>
     </div>
 </div>
+<div class="footer">
+    <div class="foot_link">
+        <a href="#">关于我们</a>
+        <span>|</span>
+        <a href="#">联系我们</a>
+        <span>|</span>
+        <a href="#">招聘人才</a>
+        <span>|</span>
+        <a href="#">友情链接</a>
+    </div>
+    <p>CopyRight © 2016 北京某某信息技术有限公司 All Rights Reserved</p>
+    <p>电话：010-****888    京ICP备*******8号</p>
+</div>
+<script type="text/javascript" src="js/slideshow.js"></script>
+<script type="text/javascript">
+    BCSlideshow('focuspic');
+    var oFruit = document.getElementById('fruit_more');
+    var oShownum = document.getElementById('show_count');
+
+    var hasorder = localStorage.getItem('order_finish');
+
+    if(hasorder)
+    {
+        oShownum.innerHTML = '2';
+    }
+
+    oFruit.onclick = function(){
+        window.location.href = 'list.html';
+    }
+</script>
 </body>
 </html>
